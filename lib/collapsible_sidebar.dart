@@ -8,9 +8,10 @@ import 'package:collapsible_sidebar/collapsible_sidebar/collapsible_item.dart';
 import 'package:collapsible_sidebar/collapsible_sidebar/collapsible_item_selection.dart';
 import 'package:collapsible_sidebar/collapsible_sidebar/collapsible_item_widget.dart';
 import 'package:flutter/material.dart';
-import 'package:optimy_second_device/page/home.dart';
 
 export 'package:collapsible_sidebar/collapsible_sidebar/collapsible_item.dart';
+
+ValueNotifier<bool> isCollapsedNotifier = ValueNotifier<bool>(true);
 
 class CollapsibleSidebar extends StatefulWidget {
   const CollapsibleSidebar({
